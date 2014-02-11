@@ -1,0 +1,93 @@
+.tabs { /* es el rectángulo contenedor TODO el slider*/
+height: 550px;
+position: relative;
+width: 1200px;
+margin-top: -80px;
+margin: 0 auto;
+border-radius:0 0 10px 10px;
+
+}
+.tab { /* cada una de las pestañas */
+float: left;
+}
+/* la parte superior con el título de la pestaña */
+.tab label { 
+    
+//background: url("../img/tab1.png");
+//background-image: url(../img/pestania.png);
+//background-color:  #FFF;
+//border-radius:20px 20px 0px 0px;  
+//box-shadow: -3px 3px 2px #678 inset;
+//color:  #000;
+//cursor: pointer;
+//left: 0px; //posicion de la botonera
+//margin-right: 0.2px;
+//padding: 10px 30px;
+//position: relative;
+//text-shadow: 1px 1px #000;
+  
+  position: relative;
+    width: 100px;
+    height: 19px;
+    display: block;
+    background: url('../img/77.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: bottom;
+    background-position: center center;
+    //letras de las pestañas
+    color: #44403b;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;   
+
+}
+/* el control input sólo lo necesitamos para que las pestañas permanezcan abiertas así que lo ocultamos */
+.tab [type=radio] { display: none; }
+
+/* el contenido de las pestañas -Caja contenedora-*/
+.content {
+//background-color:#DDDDDD;
+background: url(../img/textura2.png) repeat-x left bottom ;
+bottom: 0;
+top: 32px; //distancia entre pestañas y caja contenedora
+width: 100%;
+overflow: hidden;
+position: absolute;
+left: 0;
+right: 0;
+padding: 15px;
+//border-radius:35px 35px 30px 30px;
+}
+/* y un poco de animación */
+.content > * {
+opacity: 0;
+
+-moz-transform: translateX(-100%);
+-webkit-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+
+-moz-transition: all 0.6s ease;
+-webkit-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+}
+
+/* controlamos la pestaña activa */
+[type="radio"]:checked ~ label {
+//background-color: #DDDDDD;
+background-image: url(../img/nuevoBoton.png);
+//box-shadow: 0 4px 3px #89A inset;
+//color:  #000;
+//z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content { z-index: 1; }
+[type=radio]:checked ~ label ~ .content > * {
+opacity: 1;
+-moz-transform: translateX(0);
+-webkit-transform: translateX(0);
+-o-transform: translateX(0);
+-ms-transform: translateX(0);
+}

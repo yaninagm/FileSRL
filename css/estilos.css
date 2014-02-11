@@ -1,0 +1,36 @@
+body{
+    margin: 0px 0px 0px 0px;
+
+}
+#cuerpo{
+    position: relative;
+    margin-top: -86px;
+    
+}
+#encabezado{
+    width: 100%;
+    background:  #BBB;
+    background-image: url("../img/cabecera2.jpg") ;
+    background-repeat: repeat-x;
+    height: 200px;
+    margin: 0 0 0 0;
+}
+#botonera{
+    height: 0px;   
+    width: 40%;
+    position: absolute ;
+    top: 125px;
+   
+    
+}
+
+#pieDePagina{
+    width: 100%;
+    background: #204C7D;
+    //background-image:  url("../img/piePagina");
+    margin: 0 auto 0 auto;
+    position: relative;
+    height: 100px;
+    margin-top: 50px;
+}
+
