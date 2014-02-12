@@ -1,40 +1,33 @@
 .tabs { /* es el rectángulo contenedor TODO el slider*/
-height: 550px;
-position: relative;
-width: 1200px;
-margin-top: -80px;
-margin: 0 auto;
-border-radius:0 0 10px 10px;
+    height: 550px;
+    position: relative;
+    width: 1200px;
+    margin-top: -75px;
+    margin: 0 auto;
+    border-radius:0 0 10px 10px;
 
 }
 .tab { /* cada una de las pestañas */
-float: left;
+    float: left;
 }
 /* la parte superior con el título de la pestaña */
 .tab label { 
     
-//background: url("../img/tab1.png");
-//background-image: url(../img/pestania.png);
-//background-color:  #FFF;
-//border-radius:20px 20px 0px 0px;  
-//box-shadow: -3px 3px 2px #678 inset;
-//color:  #000;
-//cursor: pointer;
-//left: 0px; //posicion de la botonera
-//margin-right: 0.2px;
-//padding: 10px 30px;
-//position: relative;
-//text-shadow: 1px 1px #000;
-  
-  position: relative;
+    //left: 0px; //posicion de la botonera
+    //margin-right: 0.2px;
+    //padding: 10px 30px;
+    //position: relative;
+
+    position: relative;
     width: 100px;
-    height: 19px;
+    height: 39px;
     display: block;
-    background: url('../img/77.png');
+    background: url('../img/10.png');
     background-repeat: no-repeat;
     background-position: top;
     background-position: bottom;
     background-position: center center;
+    box-shadow: 0px 0px 0px #999;
     //letras de las pestañas
     color: #44403b;
     text-decoration: none;
@@ -42,52 +35,62 @@ float: left;
     padding-top: 12px;
     text-align: left;
     padding-left: 30px;
-    font-weight: bold;   
+    font-weight: bold;  
+    
 
 }
+a:hover{
+    color: #DFDFDF;
+}
+
 /* el control input sólo lo necesitamos para que las pestañas permanezcan abiertas así que lo ocultamos */
 .tab [type=radio] { display: none; }
 
 /* el contenido de las pestañas -Caja contenedora-*/
 .content {
-//background-color:#DDDDDD;
-background: url(../img/textura2.png) repeat-x left bottom ;
-bottom: 0;
-top: 32px; //distancia entre pestañas y caja contenedora
-width: 100%;
-overflow: hidden;
-position: absolute;
-left: 0;
-right: 0;
-padding: 15px;
-//border-radius:35px 35px 30px 30px;
+    //background: url(../img/textura2.png) repeat-x left bottom ;
+    background: #DFDFDF;
+    bottom: 0;
+    top: 40px; //distancia entre pestañas y caja contenedora
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    //border-radius:35px 35px 30px 30px;
+    box-shadow: 5px 5px 8px #999;
+    -webkit-box-shadow: 5px 5px 10px 0px #999; //derecha abajo izquiera arriba
+  -moz-box-shadow: 2px 2px 5px #999;
 }
 /* y un poco de animación */
 .content > * {
-opacity: 0;
+    opacity: 0;
 
--moz-transform: translateX(-100%);
--webkit-transform: translateX(-100%);
--o-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
 
--moz-transition: all 0.6s ease;
--webkit-transition: all 0.6s ease;
--o-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
 }
 
 /* controlamos la pestaña activa */
 [type="radio"]:checked ~ label {
-//background-color: #DDDDDD;
-background-image: url(../img/nuevoBoton.png);
-//box-shadow: 0 4px 3px #89A inset;
-//color:  #000;
-//z-index: 2;
+    //background:#DFDFDF;
+    width: 100px;
+    height: 39px;
+    background-image: url(../img/88.png);
+    //box-shadow: 0 4px 3px #89A inset;
+    //z-index: 2;
+    
 }
 [type=radio]:checked ~ label ~ .content { z-index: 1; }
 [type=radio]:checked ~ label ~ .content > * {
-opacity: 1;
--moz-transform: translateX(0);
--webkit-transform: translateX(0);
--o-transform: translateX(0);
--ms-transform: translateX(0);
+    opacity: 1;
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
 }

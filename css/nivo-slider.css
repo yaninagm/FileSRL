@@ -1,15 +1,3 @@
-/*
- * jQuery Nivo Slider v2.4
- * http://nivo.dev7studios.com
- *
- * Copyright 2011, Gilbert Pellegrom
- * Free to use and abuse under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * March 2010
- */
- 
- 
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
@@ -97,7 +85,7 @@
 #slider-holder{
 	width: 906px;
 	height: 447px;
-	margin: 0 auto;
+	margin: 0 auto ;
 	//background: transparent url(../img/slider-shadow.png) no-repeat center bottom;
 }
 
@@ -116,7 +104,7 @@
 }
 
 #slider a {
-    border:0;
+    border:10px;
     display:block;
 }
 

@@ -4,16 +4,23 @@ body{
 }
 #cuerpo{
     position: relative;
-    margin-top: -86px;
+    margin-top: -100px;
     
 }
 #encabezado{
     width: 100%;
-    background:  #BBB;
-    background-image: url("../img/cabecera2.jpg") ;
+    //background:  #BBB;
+   background-image: url("../img/cabeceraFondo.png") ;
     background-repeat: repeat-x;
     height: 200px;
-    margin: 0 0 0 0;
+    //margin: 0 auto 0 auto;
+}
+#encabezado2{
+    background-image: url("../img/cab2.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto 0 auto;
 }
 #botonera{
     height: 0px;   
@@ -32,5 +39,15 @@ body{
     position: relative;
     height: 100px;
     margin-top: 50px;
+    text-align: center;
+}
+p{
+    p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
 }
 
