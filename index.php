@@ -96,7 +96,7 @@
                 </div>
                 <div class="tab">
                     <input type="radio" id="tab-2" name="tab-group-1">
-                    <label for="tab-2"><a>Servicios</a></label>
+                    <label for="tab-2"><a>ServicioOOOOOOOOOOOs</a></label>
                     <div class="content">
                         <div id="accordion">
                             <h3>Guarda de archivos</h3>
