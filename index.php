@@ -137,7 +137,7 @@
                     <div class="content"> el contenido de la pestaña 3 </div>
                 </div>
                 <div class="tab">
-                    <input type="radio" id="tab-3" name="tab-group-1">
+                    <input type="radio" id="tab-4" name="tab-group-1">
                     <label class="menu_boton" for="tab-4">Novedades</label>
                     <div class="content"> el contenido de la pestaña 3 </div>
                 </div>
