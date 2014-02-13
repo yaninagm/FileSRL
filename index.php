@@ -80,7 +80,7 @@
             <div class="tabs" >
                 <div class="tab">
                     <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1"><a >Inicio </a></label>
+                    <label class="menu_boton" for="tab-1">Inicio </label>
                     <div class="content"> 
                         <!-- Slider -->
                         <div id="slider-block">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="tab">
                     <input type="radio" id="tab-2" name="tab-group-1">
-                    <label for="tab-2"><a>ServicioOOOOOOOOOOOs</a></label>
+                    <label  class="menu_boton" for="tab-2">Servicios</label>
                     <div class="content">
                         <div id="accordion">
                             <h3>Guarda de archivos</h3>
@@ -133,12 +133,12 @@
                 </div>
                 <div class="tab">
                     <input type="radio" id="tab-3" name="tab-group-1">
-                    <label for="tab-3"><a>Contacto</a></label>
+                    <label class="menu_boton" for="tab-3">Contacto</label>
                     <div class="content"> el contenido de la pestaña 3 </div>
                 </div>
                 <div class="tab">
                     <input type="radio" id="tab-3" name="tab-group-1">
-                    <label for="tab-4"><a>Novedades</a></label>
+                    <label class="menu_boton" for="tab-4">Novedades</label>
                     <div class="content"> el contenido de la pestaña 3 </div>
                 </div>
             </div>

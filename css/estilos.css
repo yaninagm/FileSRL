@@ -10,13 +10,13 @@ body{
 #encabezado{
     width: 100%;
     //background:  #BBB;
-   background-image: url("../img/cabeceraFondo.png") ;
+    //background-image: url("../img/cabeceraFondo.png") ;
     background-repeat: repeat-x;
     height: 200px;
     //margin: 0 auto 0 auto;
 }
 #encabezado2{
-    background-image: url("../img/cab2.png");
+    //background-image: url("../img/cab2.png");
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;

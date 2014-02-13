@@ -22,7 +22,7 @@
     width: 100px;
     height: 39px;
     display: block;
-    background: url('../img/10.png');
+    background: url('../img/10.png'); //pestaña sin seleccion
     background-repeat: no-repeat;
     background-position: top;
     background-position: bottom;
@@ -39,7 +39,7 @@
     
 
 }
-a:hover{
+label.menu_boton:hover{
     color: #DFDFDF;
 }
 
@@ -48,8 +48,9 @@ a:hover{
 
 /* el contenido de las pestañas -Caja contenedora-*/
 .content {
-    //background: url(../img/textura2.png) repeat-x left bottom ;
-    background: #DFDFDF;
+    background: url(../img/textura2.png) repeat-x left bottom;// cuadro contenedor
+    //background: url(../img/fichero4.png) repeat-x left bottom;
+    //background: #DFDFDF;
     bottom: 0;
     top: 40px; //distancia entre pestañas y caja contenedora
     width: 100%;
@@ -60,8 +61,8 @@ a:hover{
     padding: 25px;
     //border-radius:35px 35px 30px 30px;
     box-shadow: 5px 5px 8px #999;
-    -webkit-box-shadow: 5px 5px 10px 0px #999; //derecha abajo izquiera arriba
-  -moz-box-shadow: 2px 2px 5px #999;
+    -webkit-box-shadow: 10px 10px 20px -10px #999; //derecha abajo difuminar expandir
+    -moz-box-shadow: 5px 5px 10px 0px;
 }
 /* y un poco de animación */
 .content > * {
