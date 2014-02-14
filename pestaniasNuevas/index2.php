@@ -13,7 +13,9 @@
         <link href="../js/bxslider/jquery.bxslider.css" rel="stylesheet" />
         <script type="text/javascript">
             $(document).ready(function(){
-            $('.bxslider').bxSlider();
+            $('.bxslider').bxSlider({
+                auto: true,
+            });
             });
         </script>
     </header>
