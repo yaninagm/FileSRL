@@ -48,7 +48,8 @@ label.menu_boton:hover{
 
 /* el contenido de las pestañas -Caja contenedora-*/
 .content {
-    background: url(../img/textura2.png) repeat-x left bottom;// cuadro contenedor
+    //background:  url(.../img/ficheroCeleste.png) repeat ;
+    background: url(../img/ficheroCeleste.png) repeat-x left bottom;// cuadro contenedor
     //background: url(../img/fichero4.png) repeat-x left bottom;
     //background: #DFDFDF;
     bottom: 0;

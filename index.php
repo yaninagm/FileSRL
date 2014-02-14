@@ -70,9 +70,9 @@
     <body>
 
         <div id="encabezado" >
-            <div id="encabezado2">
-                
-            </div>
+            <div id="cinta1"></div>
+            <div id="encabezado2"></div>
+            <div id="cinta2"></div>
         </div>
                    
         <div id="cuerpo">

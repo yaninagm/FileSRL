@@ -84,10 +84,11 @@
           , $timeIndicator = $('#time-indicator')
           , slideInterval = 5000
           , effectOptions = {
-              'blindLeft': {blindCount: 15}
+             'tile3d': {tileRows: 6, rowOffset: 80}
+            , 'blindLeft': {blindCount: 15}
             , 'blindDown': {blindCount: 15}
-            , 'tile3d': {tileRows: 6, rowOffset: 80}
             , 'tile': {tileRows: 6, rowOffset: 80}
+            , auto: true
           };
 
         // This function runs before the slide transition starts
@@ -167,5 +168,5 @@
       })();
 
     </script>
-	</body>
+</body>
 </html>

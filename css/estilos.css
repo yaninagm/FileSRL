@@ -9,7 +9,7 @@ body{
 }
 #encabezado{
     width: 100%;
-    //background:  #BBB;
+    background:  #BBB;
     //background-image: url("../img/cabeceraFondo.png") ;
     background-repeat: repeat-x;
     height: 200px;
@@ -19,8 +19,21 @@ body{
     //background-image: url("../img/cab2.png");
     background-repeat: no-repeat;
     height: 200px;
+    width: 1200px;
+    //margin: 0 auto 0 auto;
+    margin:  auto;
+    background: #FFF;
+}
+#cinta1{
+    height: 10px;
     width: 100%;
-    margin: 0 auto 0 auto;
+    background: #204C7D;
+}
+
+#cinta2{
+    height: 10px;
+    width: 100%;
+    background: #204C7D;
 }
 #botonera{
     height: 0px;   
