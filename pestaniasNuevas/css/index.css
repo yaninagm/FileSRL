@@ -1,0 +1,27 @@
+/* 
+    Document   : index
+    Created on : 14-feb-2014, 10:44:43
+    Author     : Digitalizacion1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+header{
+    background-image: url(../../img/cabecera-grall-ISO.png);
+    height: 140;
+}
+.logo{
+    background-image: url(../../img/logo.png); 
+    background-repeat: no-repeat;
+    height: 140;
+    margin-left: 100;
+}
+.tercerizacion{
+    background-image: url(../../img/tercerizacion.png);
+    background-repeat: no-repeat;
+    height: 140;
+    margin-left: 450;
+}
+root { 
+    display: block;
+}
+
