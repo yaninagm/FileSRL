@@ -68,10 +68,15 @@
     </head>
 
     <body>
-
+        <div id="contenedor">
+       
         <div id="encabezado" >
+            
             <div id="cinta1"></div>
-            <div id="encabezado2"></div>
+            <div id="iso"></div>
+            <div id="encabezado2">
+                
+            </div>
             <div id="cinta2"></div>
         </div>
                    
@@ -152,6 +157,6 @@
 
 
         </div> 
-
+        </div>
     </body>
 </html>

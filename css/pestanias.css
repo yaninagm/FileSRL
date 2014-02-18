@@ -12,12 +12,12 @@
 }
 /* la parte superior con el título de la pestaña */
 .tab label { 
-    
-    //left: 0px; //posicion de la botonera
-    //margin-right: 0.2px;
-    //padding: 10px 30px;
-    //position: relative;
-
+    /*
+    left: 0px; //posicion de la botonera
+    margin-right: 0.2px;
+    padding: 10px 30px;
+    position: relative;
+*/
     position: relative;
     width: 100px;
     height: 39px;
@@ -28,7 +28,7 @@
     background-position: bottom;
     background-position: center center;
     box-shadow: 0px 0px 0px #999;
-    //letras de las pestañas
+    /*letras de las pestañas*/
     color: #44403b;
     text-decoration: none;
     font-size: 14px;
@@ -48,10 +48,11 @@ label.menu_boton:hover{
 
 /* el contenido de las pestañas -Caja contenedora-*/
 .content {
-    //background:  url(.../img/ficheroCeleste.png) repeat ;
-    background: url(../img/ficheroCeleste.png) repeat-x left bottom;// cuadro contenedor
-    //background: url(../img/fichero4.png) repeat-x left bottom;
+    /*background:  url(.../img/ficheroCeleste.png) repeat ;*/
+    background: url(../img/ficheroCeleste.png) repeat-x left bottom;/* cuadro contenedor*/
+    /*background: url(../img/fichero4.png) repeat-x left bottom;
     //background: #DFDFDF;
+    */
     bottom: 0;
     top: 40px; //distancia entre pestañas y caja contenedora
     width: 100%;
