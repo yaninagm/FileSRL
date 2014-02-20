@@ -1,0 +1,77 @@
+body{
+    margin: 0px 0px 0px 0px;
+
+}
+#cuerpo{
+    position: relative;
+    margin-top: -40px;
+    
+}
+
+#iso{
+    
+    background-image: url(../img/Borrador/ISOmini.png);
+    background-repeat: no-repeat;
+    
+    /*background: #303;*/
+    height:130px;
+    width: 180px;
+    float: right;
+}
+#encabezado{
+    width: 100%;
+    background:  #113345;
+    /*background-image: url("../img/cabeceraFondo.png") ;*/
+    background-repeat: repeat-x;
+    height: 140px;
+    /*margin: 0 auto 0 auto;*/
+}
+#encabezado2{
+    background-image: url("../img/Borrador/cabecera3.png");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 1200px;
+    /*margin: 0 auto 0 auto;*/
+    margin:  auto;
+}
+#cinta1{
+    height: 10px;
+    width: 100%;
+    background-image: url("../img/cinta.png");
+    background-repeat: repeat-x;
+}
+
+#cinta2{
+    height: 10px;
+    width: 100%;
+    background-image: url("../img/cinta.png");
+    background-repeat: repeat-x;
+}
+#botonera{
+    height: 0px;   
+    width: 40%;
+    position: absolute ;
+    top: 125px;
+   
+    
+}
+
+#pieDePagina{
+    width: 100%;
+    background: #204C7D;
+    //background-image:  url("../img/piePagina");
+    margin: 0 auto 0 auto;
+    position: relative;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+}
